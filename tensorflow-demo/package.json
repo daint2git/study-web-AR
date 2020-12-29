@@ -1,0 +1,29 @@
+{
+  "name": "tensorflow-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "daint2 <daint2dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.12.1",
+    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.7.0",
+    "@tensorflow/tfjs-vis": "^1.4.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  }
+}

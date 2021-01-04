@@ -13,5 +13,6 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 2,
+    'no-unused-vars': [2, { varsIgnorePattern: '^_', argsIgnorePattern: '^_' }],
   },
 };

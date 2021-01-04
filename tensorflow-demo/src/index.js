@@ -1,1 +1,1 @@
-import './making-predictions-from-2D-data';
+import './handwritten-digit-recognition-with-CNNs';
